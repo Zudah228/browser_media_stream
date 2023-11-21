@@ -1,8 +1,6 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
-
 
 	let mediaRecorder: MediaRecorder | undefined;
 
@@ -74,9 +72,6 @@
 		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
-
-	</h2>
 	<div>
 		<button on:click={startRecord}>Record</button>
 		<button on:click={stopRecord} disabled={mediaRecorder == null}>Stop</button>
