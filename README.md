@@ -1,4 +1,4 @@
-# Brower Media Stream
+# Browser Media Stream
 
 ブラウザからマイクを起動、音声ファイルをダウンロードするデモアプリ
 
